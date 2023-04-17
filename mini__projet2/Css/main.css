@@ -1,0 +1,273 @@
+html{
+  scroll-behavior: smooth;
+}
+header {
+  background-color: #e4ecdf;
+}
+ul {
+  font-family: "Bai Jamjuree", sans-serif;
+}
+li a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  padding: 10px 10px;
+  font-size: 18px;
+}
+.pip2 {
+  position: relative;
+  left: 800px;
+  text-align: center;
+}
+nav li a:hover {
+  border-bottom: 2px solid #ddffbb;
+  color: #0a0a0a;
+}
+
+.pip {
+  display: inline-flex;
+}
+li {
+  display: inline-flex;
+  text-align: center;
+  margin: 15px;
+}
+.bg {
+  background-image: url("/Media/bg.jpg");
+  width: auto;
+  margin-left: -0px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  margin-top: -10px;
+  margin-left: -8px;
+  margin-right: -8px;
+  opacity: 0.8;
+}
+
+
+
+.pip img {
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  float: left;
+  width: 300px;
+  height: 100px;
+  
+}
+
+
+header p {
+  position: absolute;
+  left: 400px;
+  top: 400px;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  font-weight: 400;
+  background-color: #a4bc92;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+header span {
+  color: #35348b;
+}
+header h1 {
+  position: absolute;
+  left: 380px;
+  top: 80px;
+  font-size: 100px;
+}
+
+
+
+.btn {
+  position: absolute;
+  top: 530px;
+  left: 580px;
+  size: 100px;
+  text-decoration: none;
+  
+}
+
+.btn{
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  padding: 0.8rem 1.8rem;
+  width: 150px;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.column {
+  column-count: 2;
+  margin-top: 20px;
+  column-gap: 20px;
+  max-height: 700px;
+}
+.column h1 {
+  text-align: center;
+  font-size: 35px;
+  color: #35348b;
+  font-weight: 700;
+}
+.column p {
+  text-align: center;
+  line-height: 40px;
+  margin-top: 50px;
+  font-weight: 400;
+}
+.column img {
+  position: relative;
+  top: 100px;
+  left: 60px;
+}
+.about {
+  position: relative;
+  top: 200px;
+  right: 90px;
+  border: 1px solid aliceblue;
+  border-radius: 30px 30px;
+  padding: 20px 20px 20px;
+  background-color: #ddffbb;
+  box-shadow: 0 1px 20px rgba(0, 0, 0, 0.2);
+}
+.about p,
+.about h1 {
+  font-family: "Bai Jamjuree", sans-serif;
+}
+.about span {
+  color: #fdd512;
+}
+.cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 50px;
+}
+.cont .first-section {
+  border: 1px solid #ddffbb;
+  padding: 20px 30px 10px;
+  margin: 10px;
+  border-radius: 30px;
+  background-color: #ddffbb;
+  text-align: center;
+  box-shadow: 0 1px 20px rgba(0, 0, 0, 0.2);
+}
+.cont .second-section {
+  border: 1px solid #ddffbb;
+  padding: 20px 30px 10px;
+  margin: 10px;
+  border-radius: 30px;
+  background-color: #ddffbb;
+  text-align: center;
+  box-shadow: 0 1px 20px rgba(0, 0, 0, 0.2);
+}
+.cont .theerd-section {
+  border: 1px solid #ddffbb;
+  padding: 20px 30px 10px;
+  margin: 10px;
+  border-radius: 30px;
+  background-color: #ddffbb;
+  text-align: center;
+  box-shadow: 0 1px 20px rgba(0, 0, 0, 0.2);
+}
+.cont .first-section:hover,.cont .second-section:hover,.cont .theerd-section:hover
+{
+  box-shadow: 2px 5px #fdd512;
+
+}
+
+.cont p {
+  font-family: "Bai Jamjuree", sans-serif;
+  line-height: 30px;
+}
+.cont h3 {
+  font-size: 30px;
+  font-family: "Bai Jamjuree", sans-serif;
+  color: #a1a19f;
+}
+.cont h3:hover {
+  color: #262667;
+}
+.sec h1 {
+  font-family: "Bai Jamjuree", sans-serif;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 150px;
+}
+.sec span {
+  color: #35348b;
+}
+footer {
+  height: 200px;
+  background-color: #a4bc92;
+  margin: -8px;
+  margin-left: -8px;
+  margin-right: -8px;
+  margin-top: 150px;
+  border: 1px solid #ddffbb;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.fa {
+  font-size: 16px;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+  margin: 8px;
+  
+}
+.fa:hover {
+    
+  color: rgb(15, 15, 15);
+}
+
+
+.fa-facebook {
+  background-color:#15316e ;
+  color:white;
+  padding: 15px 18px;
+}
+.social h2,.links h2 {
+  text-align: center;
+  color: #35348b;
+  font-family: "Bai Jamjuree", sans-serif;
+  margin-top: 35px;
+}
+
+
+.fa-twitter {
+  background-color:#2481a7 ;
+  color: white;
+  padding: 15px;
+}
+.fa-instagram {
+  background-color: blueviolet;
+  color:white;
+  padding: 15px;
+}
+.fa-github {
+  background-color: rgb(83, 83, 83);
+  color:white;
+  padding: 15px;
+}
+footer img{
+  width: 240px;
+  height: 100px;
+}
+
+
+footer a:hover{
+  color: #35348b;
+}
